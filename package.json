@@ -8,7 +8,7 @@
   "author": {
     "name": "Octoblu, Inc.",
     "email": "serveradmin@octoblu.com",
-    "url": "https://github.com/sqrtofsaturn/generator-nanocyte-node"
+    "url": "https://github.com/octoblu/generator-nanocyte-node"
   },
   "engines": {
     "node": ">=0.10.x"
