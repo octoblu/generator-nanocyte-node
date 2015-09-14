@@ -1,0 +1,38 @@
+{
+  "name": "generator-nanocyte-node",
+  "version": "0.0.1",
+  "description": "Generate a nanocyte node",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "octoblu/generator-nanocyte-node",
+  "author": {
+    "name": "Octoblu, Inc.",
+    "email": "serveradmin@octoblu.com",
+    "url": "https://github.com/sqrtofsaturn/generator-nanocyte-node"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "coffee-script": "^1.10.0",
+    "lodash": "^3.10.1",
+    "yeoman-generator": "^0.18.10",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
