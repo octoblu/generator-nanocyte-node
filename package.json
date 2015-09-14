@@ -1,6 +1,6 @@
 {
   "name": "generator-nanocyte-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generate a nanocyte node",
   "license": "MIT",
   "main": "app/index.js",
