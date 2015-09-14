@@ -45,11 +45,11 @@ NanocyteNodeGenerator = yeoman.generators.Base.extend
         @copy 'test/mocha.opts', 'test/mocha.opts'
         @copy 'test/test_helper.coffee', 'test/test_helper.coffee'
         @copy 'examples/sample-node.coffee', 'examples/sample-node.coffee'
-#        @copy '_gitignore_coffee', '.gitignore'
       else
         @template '_package.json', 'package.json'
         @template '_index.js', 'index.js'
-#        @copy '_gitignore', '.gitignore'
+
+      @copy '.travis.yml', '.travis.yml'
 
   end: ->
     @installDependencies bower: false
