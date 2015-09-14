@@ -1,0 +1,25 @@
+{
+  "name": "<%= nanocyteName %>",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "octoblu/<%= nanocyteName %>"
+  },
+  "keywords": [
+    "octoblu",
+    "meshblu",
+    "IoT",
+    "nanocyte"
+  ],
+  "author": "sqrt@octoblu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/<%= nanocyteName %>/issues"
+  },
+  "homepage": "https://github.com/octoblu/<%= nanocyteName %>/readme",
+  "devDependencies": {
+    "lodash": "^3.10.1"
+  }
+}

@@ -48,7 +48,7 @@ NanocyteNodeGenerator = yeoman.generators.Base.extend
       else
         @template '_package.json', 'package.json'
         @template '_index.js', 'index.js'
-
+        @template 'src/node_template.js', 'src/' + @nodeSrc + '.js'
       @copy '.travis.yml', '.travis.yml'
 
   end: ->
